@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "dekar";
+  src: url(../fonts/Dekar.otf);
+  /*src : url('dekar/Dekar.otf') format('otf');*/
+
+}
+html {
+  background-color: black;
+}
+.header {
+  position: relative;
+  background: url("../img/street.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+  width: 650px;
+  margin-top: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-align: center;
+  font-size: 1.8em;
+  font-family: dekar;
+}
+.header h1 {
+  padding-top: 2%;
+}
+form {
+  position: absolute;
+  left: 27.8%;
+  width: 650px;
+  font-family: dekar;
+  font-size: 2em;
+  color: #156E8C;
+  background-color: #E8E8E8;
+  padding-bottom: 40px;
+}
+.name, .email {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.address {
+  position: absolute;
+  left: 61%;
+  top: 13%;
+}
+.btn {
+  position: absolute;
+  top: 100%;
+}
+button {
+  font-family: dekar;
+  padding: 2%;
+  color :#156E8C;
+  font-size: 1em;
+  font-weight: bolder;
+  background-color: #d46657;
+  width: 650px;
+
+
+}
+input, textarea {
+  display: block;
+  width: 200px;
+  height: 30px;
+  margin-right: 0;
+  /*overflow: scroll;*/
+
+}
+textarea {
+  height: 90px;
+}
+/*input, button {
+  width: 40%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+}*/
